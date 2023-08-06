@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+div{
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #BF2604;
+  font-family: "Raleway", sans-serif;
+}
+
+
+h2 {
+  color: #F28599;
+  font-family: 'Raleway', sans-serif;
+}
+
+.multiline-p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  color: #F25C05;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-align-last: center;
+  font-weight: 600;
+}
+
+.img-circle {
+  height: 160px;
+  border-radius: 50%;
+}
+
+.btn {
+  text-decoration: none;
+  color: #F23D5E;
+  background-color: #ecbfc7;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.socials {
+  margin: 12px;
+  position: fixed;
+  left: 0;
+  top: 20%;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.icon {
+  text-decoration: none;
+  color: #F2884B;
+  display: list-item;
+  margin: 2px 0;
+}
+
+.icon:hover {
+  color: #F25C05;
+}
+
+.wave {
+  /* position: absolute; */
+  margin-top: -200px;
+  /* z-index: -1; */
+}
+
+.languages {
+  height: 70px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  gap: 50px;
+}
+
+.school {
+  width: 200px;
+  display: list-item;
+  margin: 0 auto;
+}
+
+.background {
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.hobbies .multiline-p {
+  font-size: 900;
+  font-weight: 900;
+  margin: 0px auto 120px auto;
+}
+
+.hobbies h2 {
+  margin: 70px auto 30px auto;
+}
